@@ -50,8 +50,12 @@ function draw(params) {
 }
 
 function drawFocusLines(params, w, h) {
-    const { focusRect, lineCount, lineColor, lineType, randomAmount, isCircle } = params;
-    let { lineThickness } = params;
+    const { focusRect, lineColor, lineType, randomAmount, isCircle } = params;
+    let { lineCount, lineThickness } = params;
+
+    if (lineType === 'manga') {
+        lineCount *= 2;
+    }
 
     const focusCenter = {
         x: focusRect.x + focusRect.width / 2,
