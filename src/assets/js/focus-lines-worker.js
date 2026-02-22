@@ -55,6 +55,7 @@ function drawFocusLines(params, w, h) {
 
     if (lineType === 'manga') {
         lineCount *= 2;
+        lineThickness *= 0.75;
     }
 
     const focusCenter = {
