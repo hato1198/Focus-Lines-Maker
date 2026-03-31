@@ -180,6 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             uploadPrompt.classList.add('hidden');
             canvasContainer.classList.remove('hidden');
+            workspace.classList.add('image-loaded');
             downloadBtn.disabled = false;
             resetBtn.disabled = false;
             changeImageBtn.disabled = false;
