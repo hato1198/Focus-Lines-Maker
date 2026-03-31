@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const activeColor   = '#0056b3';
+  const activeColor   = '#0090cc';
   const inactiveColor = '#dee2e6';
   // CSSで定義されているスライダーのつまみの幅 / 2 (px)
   // （スライダーの端につまみの端がくる可能性とスライダーの端につまみの中心がくる可能性を考慮し、
